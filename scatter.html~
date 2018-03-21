@@ -1,0 +1,27 @@
+<!DOCTYPE hmtl>
+<!-- 
+Team Gnocchi
+Alessandro Cartegni & Samantha Ngo
+Softdev -- pd7
+k#13
+2018-03-21
+-->
+<html>
+
+  <head>
+    <title> Scatter</title>
+  </head>
+
+  <body>
+    <center>
+      <h1> Welcome to the __________ Scatter! by Team Gnocchi(Samantha & Alessandro) </h1>
+      <h2>Below is the scatterplot analyzing the relationship between VARIABLE A & VARIABLE B</h2>
+      <svg id="vimage" height="500" width="500" style="border: 1px solid;"></svg>
+      <br>
+		  <button id="switch">Switch Countries!</button>
+    </center>
+  </body>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="scatter.js"></script>
+</html>
