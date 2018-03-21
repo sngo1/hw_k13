@@ -16,11 +16,18 @@ var h1 = body.append("h1").text("Welcome to the Snowy Scatter!");
 body.append("h2").text("by Team Gnocchi (Samantha & Alessandro)");
 var h2 = body.append("h2").text("Below is the scatterplot analyzing the relationship between Average Annual Temperature in Central Park & Annual Snow in Central Park");
 
+body.append("br");
+
+var dataSource = body.append("dataSource").text("Source: https://www.weather.gov/okx/centralparkhistorical");
+
+body.append("br");
+body.append("br");
+
 var labelY = body.append("labelY").text("Avg Temp");
 
 var svg = body.append("svg").attr("height", 400).attr("width", 800).style("border", "2px solid");
 
-var br = body.append("br");
+body.append("br");
 
 var labelX = body.append("labelX").text("Total Snow");
 
